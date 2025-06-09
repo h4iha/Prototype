@@ -1,3 +1,0 @@
-local Car = {}
-
-return Car

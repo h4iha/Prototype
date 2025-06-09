@@ -1,3 +1,0 @@
-local Bus = {}
-
-return Bus
