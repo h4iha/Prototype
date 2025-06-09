@@ -26,7 +26,8 @@ function Tank:hit(damage: number): ()
 end
 
 function Tank.speedUp(self: Tank, additionalSpeed: number): ()
-    self.speed += additionalSpeed
-    print(`Tank was increased more {additionalSpeed} speed`)
+	self.speed += additionalSpeed
+	print(`Tank was increased more {additionalSpeed} speed`)
+end
 
 return Tank
